@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* bootatrap row edit */
+.row{
+    width: 100%;
+    margin: 0 !important;
+}
+/* profile {blue section} section starts from hare  */
+
+.left_part{
+    width: 27%;
+    height: 100%;
+    padding: 0 !important;
+}
+#profile{
+    width: 100%;
+    background-color: #00bdbd;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+#profile h1{
+    margin-bottom: 0;
+}
+#my_photo{
+    width: 32%;
+    border-radius: 100%;
+    margin-top: 30px;
+}
+/* contact section stars from hare  */
+#profile_about{
+    background-color: rgb(70, 70, 70);
+    width: 100%;
+    height: 100%;
+}
+.all_information{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.contact_h4{
+    width: 70%;
+    margin: 0px ;
+    padding: 10px 0px;
+    color: white;
+    border-bottom: 2px solid white;
+}
+.contact_logo{
+    margin-right: 12px;
+}
+/* email , phone , address */
+.contact_name{
+    display: flex;
+}
+.contact_information{
+    color: white;
+    margin-top: 10px;
+    padding-left: 17px;
+}
+.contact_info{
+    color: rgb(190, 190, 190);
+}
+/* education sectuion  */
+.education_h4{
+    width: 70%;
+    margin: 0px ;
+    padding: 10px 0px;
+    color: white;
+    border-bottom: 2px solid white;
+}
+.education_logo{
+    margin-right: 12px;
+}
+.education_name{
+    display: flex;
+}
+.education_information{
+    color: white;
+    margin-top: 10px;
+    padding-left: 17px;
+}
+.education_info{
+    color: rgb(190, 190, 190);
+}
+/* right section starts from hare  */
+
+.right_part{
+    padding: 24px 50px !important;
+}
+/* right profile info  */
+.right_profile_info_h4{
+    margin: 0px ;
+    padding: 10px 0px;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(49, 49, 49);
+}
+.right_profile_logo{
+    margin-right: 12px;
+    width: 36px;
+}
+.education_info{
+    color: rgb(27, 27, 27);
+}
+/* work experiance */
+.right_work_experiance_h4{
+    margin: 0px ;
+    padding: 10px 0px;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(49, 49, 49);
+}
+.right_work_experiance_logo{
+    margin-right: 12px;
+    width: 36px;
+}
+.work_name{
+    display: flex;
+}
+.work_information{
+    margin-top: 10px;
+    padding-left: 17px;
+}
+/* skills  */
+.right_skill_experiance_h4{
+    margin: 0px ;
+    padding: 10px 0px;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(49, 49, 49);
+}
+.right_skill_experiance_logo{
+    margin-right: 12px;
+    width: 36px;
+}
+.all_skills{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.skills_part_1{
+    width: 35%;
+}
+.skills_part_2{
+    width: 35%;
+    /* margin-left: 60px; */
+}
+.parts_of_part_1{
+    display: flex;
+    justify-content: space-between;
+}
+.parts_of_part_2{
+    display: flex;
+    justify-content: space-between;
+}
+/* language  */
+.right_language_h4{
+    margin: 0px ;
+    padding: 10px 0px;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(49, 49, 49);
+}
+.right_language_logo{
+    margin-right: 12px;
+    width: 36px;
+}
+.all_language{
+    width: 35%;
+   
+}
+.languages{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.language_reating{
+    display: flex;
+}
